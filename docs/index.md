@@ -5,7 +5,12 @@ You can use the [editor on GitHub](https://github.com/openpayment-usf/694GroupPr
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 {% capture includeGuts %}
-{% include post-entry.html %} 
+{% include fig1.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
+{% capture includeGuts %}
+{% include fig2.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
