@@ -24,6 +24,58 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
+#### 3 Payment Received per State
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+{% capture includeGuts %}
+{% include fig3.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
+{% capture includeGuts %}
+{% include fig4.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
+#### 4 Payment Received by Physician type
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+{% capture includeGuts %}
+{% include fig5.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
+#### 5 Payment Received by Specialty
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+{% capture includeGuts %}
+{% include fig6.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
+#### 6 drug cost against payment received per state
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+{% capture includeGuts %}
+{% include fig7.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
+#### 7 nature of payment percentage
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+{% capture includeGuts %}
+{% include fig8.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
 ### Conclusion
 
 Integer eget dolor vitae nulla dignissim lobortis. Suspendisse pellentesque lacus nec commodo porta. Proin sollicitudin ante quis elit venenatis feugiat. Nam sit amet libero eu tortor maximus bibendum eu nec quam. Nullam sem lacus, ultricies eu ex a, eleifend placerat nisl. Aenean tincidunt ornare lacinia. Curabitur porta ante eu lectus condimentum, sit amet faucibus lorem ultricies. Sed lobortis dictum ipsum id placerat. Aenean pellentesque est sit amet leo gravida, non accumsan dui luctus. Aenean sollicitudin tristique risus et interdum. Phasellus posuere velit tortor, quis dignissim ante gravida at. Duis non nisi feugiat, venenatis justo in, ultrices lacus. Curabitur hendrerit lacus at pretium euismod. Morbi tempor elit sed gravida accumsan. Vestibulum fringilla finibus ornare. Sed rutrum finibus turpis a rutrum.
