@@ -33,11 +33,6 @@ There are two groups of participants in the Open Payments program. **Reporting e
 
 In the program year 2019, the total US dollars involved and the total number of published records are,
 
-<!-- {% capture includeGuts %}
-{% include test.html %} 
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}} -->
-
 <center>
 
 <span style="font-size:20px;color:#47965d;font-weight:bold;"> 
@@ -108,11 +103,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
-
-{% capture includeGuts %}
-{% include fig4.html %} 
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
 
 {% capture includeGuts %}
 {% include fig4.html %} 
