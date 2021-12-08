@@ -38,6 +38,10 @@ In the program year 2019, the total US dollars involved and the total number of 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
+| Total US Dollar Value | Total Records Published |
+|:---------------------:|:-----------------------:|
+| $10.86 Billion        | 11.22 Million           |
+
 The numbers of physicians and manufactures involved in the Program year 2019 are,
 
 <style type="text/css">
