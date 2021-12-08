@@ -74,14 +74,14 @@ The Open Payments data has a size **5.7 GB** and we also combine it with a drug 
 Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non orci eget, gravida auctor tortor. Nulla nec sagittis ex. Donec luctus pulvinar orci id porta. Maecenas sagittis lacus eu efficitur placerat. Pellentesque laoreet elementum leo eu viverra. Aliquam efficitur orci in risus fermentum, eu blandit risus auctor. Aenean elementum sed augue et scelerisque. Maecenas aliquet, metus vitae maximus pellentesque, risus enim tincidunt sem, a semper tellus urna ac justo. Morbi mauris risus, tempor vitae aliquet sit amet, euismod nec lectus. Aliquam vitae nisl rutrum, pellentesque lectus vitae, iaculis purus.
 
 {% capture includeGuts %}
-{% include fig9.html %} 
+{% include fig1_1.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
 Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non orci eget, gravida auctor tortor. Nulla nec sagittis ex. Donec luctus pulvinar orci id porta. Maecenas sagittis lacus eu efficitur placerat. Pellentesque laoreet elementum leo eu viverra. Aliquam efficitur orci in risus fermentum, eu blandit risus auctor. Aenean elementum sed augue et scelerisque. Maecenas aliquet, metus vitae maximus pellentesque, risus enim tincidunt sem, a semper tellus urna ac justo. Morbi mauris risus, tempor vitae aliquet sit amet, euismod nec lectus. Aliquam vitae nisl rutrum, pellentesque lectus vitae, iaculis purus.
 
 {% capture includeGuts %}
-{% include fig10.html %} 
+{% include fig1_2.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
@@ -90,7 +90,7 @@ Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non o
 Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non orci eget, gravida auctor tortor. Nulla nec sagittis ex. Donec luctus pulvinar orci id porta. Maecenas sagittis lacus eu efficitur placerat. Pellentesque laoreet elementum leo eu viverra. Aliquam efficitur orci in risus fermentum, eu blandit risus auctor. Aenean elementum sed augue et scelerisque. Maecenas aliquet, metus vitae maximus pellentesque, risus enim tincidunt sem, a semper tellus urna ac justo. Morbi mauris risus, tempor vitae aliquet sit amet, euismod nec lectus. Aliquam vitae nisl rutrum, pellentesque lectus vitae, iaculis purus.
 
 {% capture includeGuts %}
-{% include fig1.html %} 
+{% include fig2.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
@@ -99,7 +99,7 @@ Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non o
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
 
 {% capture includeGuts %}
-{% include fig2.html %} 
+{% include fig3.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
@@ -110,7 +110,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
 
 {% capture includeGuts %}
-{% include fig3.html %} 
+{% include fig4.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
