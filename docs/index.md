@@ -34,30 +34,68 @@ There are two groups of participants in the Open Payments program. **Reporting e
 In the program year 2019, the total US dollars involved and the total number of published records are,
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;}
-.tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;}
-.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;}
+  .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+
+  .tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+  }
+
+  .tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+  }
+
+  .tg .tg-20xt {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #47965d;
+    /* font-weight: bold; */
+    font-size: 22px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .tg .tg-xm73 {
+    border-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+  }
+
 </style>
 <center>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-cl00"><h5>Total US Dollar Value</h5></th>
-    <th class="tg-20xt"><span style="font-weight:bold"><h5>Total Records Published</h5></span>                  </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-xm73">$10.86 Billion</td>
-    <td class="tg-xm73">11.22 Million</td>
-  </tr>
-</tbody>
-</table>
+  <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-20xt">Total US Dollar Value</th>
+        <th class="tg-20xt">Total Records Published </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-xm73">$10.86 Billion</td>
+        <td class="tg-xm73">11.22 Million</td>
+      </tr>
+    </tbody>
+  </table>
 </center>
 
 The numbers of physicians and manufactures involved in the Program year 2019 are,
