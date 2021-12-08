@@ -39,15 +39,15 @@ In the program year 2019, the total US dollars involved and the total number of 
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-20xt{background-color:#efefef;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;padding:15px;}
+.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;padding:15px;}
 .tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;padding:15px;}
-.tg .tg-cl00{background-color:#efefef;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
+.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-cl00">Total US Dollar Value</th>
-    <th class="tg-20xt"><span style="font-weight:bold">Total Records Published</span>                  </th>
+    <th class="tg-cl00"><h5>Total US Dollar Value</h5></th>
+    <th class="tg-20xt"><span style="font-weight:bold"><h5>Total Records Published</h5></span>                  </th>
   </tr>
 </thead>
 <tbody>
@@ -66,15 +66,15 @@ The numbers of physicians and manufactures involved in the Program year 2019 are
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-20xt{background-color:#efefef;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;padding:15px;}
+.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;padding:15px;}
 .tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;padding:15px;}
-.tg .tg-cl00{background-color:#efefef;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
+.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-cl00">Total Number of Physicians</th>
-    <th class="tg-20xt">Total Number of Manufactures<span style="font-weight:bold">                </span></th>
+    <th class="tg-cl00"><h5>Total Number of Physicians</h5></th>
+    <th class="tg-20xt"><h5>Total Number of Manufactures</h5><span style="font-weight:bold">                </span></th>
   </tr>
 </thead>
 <tbody>
