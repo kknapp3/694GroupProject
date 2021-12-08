@@ -39,9 +39,9 @@ In the program year 2019, the total US dollars involved and the total number of 
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;padding:15px;}
-.tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;padding:15px;}
-.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
+.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;}
+.tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;}
+.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;}
 </style>
 <center>
 <table class="tg">
@@ -68,9 +68,9 @@ The numbers of physicians and manufactures involved in the Program year 2019 are
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;padding:15px;}
-.tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;padding:15px;}
-.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
+.tg .tg-20xt{background-color:#ffffff;border-color:#ffffff;font-size:24px;text-align:left;vertical-align:top;}
+.tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;}
+.tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;}
 </style>
 <center>
 <table class="tg">
