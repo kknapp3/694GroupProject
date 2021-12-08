@@ -43,6 +43,7 @@ In the program year 2019, the total US dollars involved and the total number of 
 .tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;padding:15px;}
 .tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
 </style>
+<center>
 <table class="tg">
 <thead>
   <tr>
@@ -57,6 +58,7 @@ In the program year 2019, the total US dollars involved and the total number of 
   </tr>
 </tbody>
 </table>
+</center>
 
 The numbers of physicians and manufactures involved in the Program year 2019 are,
 
@@ -70,6 +72,7 @@ The numbers of physicians and manufactures involved in the Program year 2019 are
 .tg .tg-xm73{border-color:#ffffff;font-size:22px;text-align:left;vertical-align:top;padding:15px;}
 .tg .tg-cl00{background-color:#ffffff;border-color:#ffffff;font-size:24px;font-weight:bold;text-align:left;vertical-align:top;padding:15px;}
 </style>
+<center>
 <table class="tg">
 <thead>
   <tr>
@@ -84,6 +87,7 @@ The numbers of physicians and manufactures involved in the Program year 2019 are
   </tr>
 </tbody>
 </table>
+</center>
 
 The Open Payments data has a size **5.7 GB** and we also combine it with a drug dataset of **3.1 GB**. Because of the size of the data, we use Spark Clusters for processing the data on AWS, and then made the plots by Plotly. The efficiency of using different EMR machines will be stated in the last part.
 
