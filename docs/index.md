@@ -64,14 +64,14 @@ The Open Payments data has a size **5.7 GB** and we also combine it with a drug 
 
 #### 1 Payment Distribution
 
-
+These are figures about the distribution of payment in the Program year 2019. We made these figures to understand what is the most common amount payment. The data is very unblance as a right-skewed distribution. We split the distribution on the payment of 50 so that we can have better understanding of how the data looks like. We actually took a sample of 48,577 records from the whole set or the plot will be over large (over 113 MB). As it is displayed in the first part of distribution, we can observe that most of the payment amounts are between ​\$10 to ​\$25.
 
 {% capture includeGuts %}
 {% include fig1_1.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
-Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non orci eget, gravida auctor tortor. Nulla nec sagittis ex. Donec luctus pulvinar orci id porta. Maecenas sagittis lacus eu efficitur placerat. Pellentesque laoreet elementum leo eu viverra. Aliquam efficitur orci in risus fermentum, eu blandit risus auctor. Aenean elementum sed augue et scelerisque. Maecenas aliquet, metus vitae maximus pellentesque, risus enim tincidunt sem, a semper tellus urna ac justo. Morbi mauris risus, tempor vitae aliquet sit amet, euismod nec lectus. Aliquam vitae nisl rutrum, pellentesque lectus vitae, iaculis purus.
+Then in the second part of distribution, all we can observe is a quick decay of the counts. The data we have selected in this plot are the payments from \$50 to \$2,000.  Although there are also some payments larger than \$2,000 but they rarely happen with a porportion of around 2.8% across the whole set. So we finally decided not to include them in the visualization.
 
 {% capture includeGuts %}
 {% include fig1_2.html %} 
@@ -149,4 +149,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 
 <img src="./images/Performance.png" align="center" style="padding-top:10px">
 
->  Nore: In the first column, E means the number of executors and W means the number of workers.
+>  Note: In the first column, E means the number of executors and W means the number of workers.
