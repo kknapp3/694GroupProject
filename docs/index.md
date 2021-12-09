@@ -19,8 +19,6 @@ The natural of payments is in the natrual of a severance payment considered to b
 - Travel and lodging
 - Etc.
 
-<br>
-
 **2. Program Participants**
 
 There are two groups of participants in the Open Payments program. **Reporting entities** include applicable manufacturers and group purchasing organizations, or drug and medical device companies. **Covered recipients** include:
@@ -34,7 +32,6 @@ There are two groups of participants in the Open Payments program. **Reporting e
 In the program year 2019, the total US dollars involved and the total number of published records are,
 
 <center>
-
 <span style="font-size:20px;color:#47965d;font-weight:bold;"> 
    &nbsp;&nbsp;&nbsp;&nbsp; Total US Dollar Value &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total Records Published 
 </span>
@@ -48,13 +45,12 @@ In the program year 2019, the total US dollars involved and the total number of 
 The numbers of physicians and manufactures involved in the Program year 2019 are,
 
 <center>
-
 <span style="font-size:20px;color:#47965d;font-weight:bold;"> 
    &nbsp;&nbsp;&nbsp;&nbsp; Total Number of Physicians &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total Number of Manufactures
 </span>
 <br>
 <span style="font-size:20px;"> 
-  &nbsp;&nbsp;&nbsp;  N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N/A &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;  623 Thousand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1657&nbsp;&nbsp;
 </span>
 
 </center>
@@ -144,4 +140,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 {% include fig8.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
-
