@@ -8,11 +8,11 @@ The data we tried to analuze and visualize here is the data gathered in the prog
 
 ### Terminologies
 
-**1. Natural of Payments**
+**1. Nature of Payments**
 
-The natural of payments is in the natrual of a severance payment considered to be reasonable by the Bank. It helps to understand the different types of payments that must be reported in the open payment. The common types of payments include,
+The nature of payments is in the form of a severance payment considered to be reasonable by the Bank. It helps to understand the different types of payments that must be reported to Open Payments. The common types of payments include,
 
--  Food and beverage
+- Food and beverage
 - Consulting fee
 - Education
 - Research
@@ -58,20 +58,20 @@ The numbers of physicians and manufactures involved in the Program year 2019 are
 
 
 
-The Open Payments data has a size **5.7 GB** and we also combine it with a drug dataset of **3.1 GB**. Because of the size of the data, we use Spark Clusters for processing the data on AWS, and then made the plots by Plotly. The efficiency of using different EMR machines will be stated in the last part.
+The Open Payments data has a size **5.7 GB** and we also combined it with a drug dataset of **3.1 GB**. Because of the size of the data, we used Spark Clusters for processing the data on AWS, and then made the plots by Plotly. The efficiency of using different EMR machines will be stated in our performanc summary at the end of this report.
 
 ### Data Visualization
 
 #### 1 Payment Distribution
 
-These are figures about the distribution of payment in the Program year 2019. We made these figures to understand what is the most common amount payment. The data is very unblance as a right-skewed distribution. We split the distribution on the payment of 50 so that we can have better understanding of how the data looks like. We actually took a sample of 48,577 records from the whole set or the plot will be over large (over 113 MB). As it is displayed in the first part of distribution, we can observe that most of the payment amounts are between ​\$10 to ​\$25.
+These are figures about the distribution of payment in the Program year 2019. We made these figures to understand what is the most common payment amount. The data is very unbalanced as a right-skewed distribution. We split the distribution on the payment of 50 so that we can have better understand how the data appears. We actually took a sample of 48,577 records from the whole set to keep the size of the plot (113 MB) from growing excessively large. As it is displayed in the first part of distribution, we can observe that most of the payment amounts are between ​\$10 to ​\$25.
 
 {% capture includeGuts %}
 {% include fig1_1.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
-Then in the second part of distribution, all we can observe is a quick decay of the counts. The data we have selected in this plot are the payments from \$50 to \$2,000.  Although there are also some payments larger than \$2,000 but they rarely happen with a porportion of around 2.8% across the whole set. So we finally decided not to include them in the visualization.
+Then in the second part of distribution, we observe a quick decay of the counts. The data we have selected in this plot are the payments from \$50 to \$2,000.  Although there are also some payments larger than \$2,000 but they rarely happen with a porportion of around 2.8% across the whole set. So we finally decided not to include them in the visualization.
 
 {% capture includeGuts %}
 {% include fig1_2.html %} 
@@ -80,7 +80,7 @@ Then in the second part of distribution, all we can observe is a quick decay of 
 
 #### 2 How many recipient records each state?
 
-Next, let's take a look at which states are active in the Open Payment Program. This figure basically shows how many recipient records gathered in each state in the Program year 2019. The result shows that California, Texas, Florida, and New York are pretty active in these records. This probably because these states has a higher population. We will analyze that more in the figure 4.
+Next, we examined which states are most active in the Open Payment Program. This figure basically shows how many recipient records were gathered in each state in the Program year 2019. The result shows that California, Texas, Florida, and New York were most active in terms of number of records. This is likely due to these states having higher populations. We will analyze this further in figure 4.
 
 {% capture includeGuts %}
 {% include fig2.html %} 
@@ -89,7 +89,7 @@ Next, let's take a look at which states are active in the Open Payment Program. 
 
 #### 3 How much money in total for each state by manufactures?
 
-Now that we know some states receive more moneys than the others, so what about the manufactures? In the present figure, it shows that the applicable manufacturers, group purchasing organizations, or drug and medical device companies in California, Illinois, Indiana, Massachusetts, and New Jersey have a higher amount of payments than the other states.
+Now that we know which states receive more money than others, what about the manufactures? In the present figure, we observe that the applicable manufacturers, group purchasing organizations, or drug and medical device companies in California, Illinois, Indiana, Massachusetts, and New Jersey have higher payment totals than the other states.
 
 {% capture includeGuts %}
 {% include fig3.html %} 
@@ -98,7 +98,7 @@ Now that we know some states receive more moneys than the others, so what about 
 
 #### 4 Recipient Payment Records per Capita per State
 
-Let's continue with the figure 2. In the figure 2, we can observe that some states has more records than the others. But does that mean these states are more active in this program? Probably not, we have guessed that it is probably because of the population. The present plot is the amount of money regularized by the population in each state and now we can find out that most of the states are on the same page. Massachusetts is actually an outlier in this visualization and we guess this is because it has more medical institutions than the other states.
+Let's continue with figure 2. In figure 2, we observe that some states have more records than others. But does that mean these states were more active in this program? Probably not, we have guessed that it is probably because of the population. The present plot is the amount of money regularized by the population in each state and now we can find out that most of the states are relatively on the same page. Massachusetts is actually an outlier in this visualization and we speculate this is because it has more medical institutions than the other states.
 
 {% capture includeGuts %}
 {% include fig4.html %} 
@@ -107,7 +107,7 @@ Let's continue with the figure 2. In the figure 2, we can observe that some stat
 
 #### 5 Payment Received by Physician Specialty
 
-To continue with our discussion, we can also have a look at the top five types of physicians that get the most of the payments. It turns out that orthopaedic surgery, neurology, and internal medicine physicians got the most payments in the Program Year 2019.
+To continue with our discussion, we also have a look at the top five types of physicians that get the most of the payments. It turns out that orthopaedic surgery, neurology, and internal medicine physicians received the most payments in the Program Year 2019.
 
 {% capture includeGuts %}
 {% include fig5.html %} 
@@ -116,7 +116,7 @@ To continue with our discussion, we can also have a look at the top five types o
 
 #### 6 Natural of Payments by Records
 
-We have discussed the meaning of natural of payments, and now let's discuss what is the most common natural of payments. From this figure below, we are able to observe that the most common type of payments is food and beverage about 87%. Some other top ranked natural of payments are travel and lodging, compensation, education, and etc.
+We previously discussed the nature of payments, and we explore what types of payments were most commonly made in 2019. From this figure below, we observe that the most common type of payment is food and beverage at about 87%. Some other top ranked payment-types were travel and lodging, compensation, education, etc.
 
 {% capture includeGuts %}
 {% include fig6.html %} 
@@ -125,7 +125,7 @@ We have discussed the meaning of natural of payments, and now let's discuss what
 
 #### 7 Natural of Payment by Amount of Money
 
-Instead of just viewing the number of the records for each natural of payment, we would also like to know which one contribute to the largest amount of money. The present figure shows that Royalty or License payment counts the most of the payments about 1.58 billion even if they does not rank high on the number of records. 
+Instead of just viewing the number of the records for each type of payment, we would also like to know which types contribute the largest amount of money. The present figure shows that Royalty or License payments account for most of the payments (about 1.58 billion), even though they do not rank high by virtue of number of records.
 
 {% capture includeGuts %}
 {% include fig7.html %} 
@@ -134,7 +134,7 @@ Instead of just viewing the number of the records for each natural of payment, w
 
 #### 8 Drug Cost and Payment Received Relationship
 
-So the final question is that: what is the impact of the these payments? We combined the Open Payment dataset in 2019 with the drug cost dataset in 2019 together and then made the following scatter plot. The result shows that we are expected to see a higher drug cost if the current state has a higher amount of payment received. 
+So the final question we pose: what is the impact of the these payments? To answer this, we combined the Open Payment dataset in 2019 together with the drug cost dataset in 2019 to produce the following scatter plot. The results show that we see higher drug costs in states with higher total amounts of payments received. 
 
 {% capture includeGuts %}
 {% include fig8.html %} 
@@ -143,8 +143,8 @@ So the final question is that: what is the impact of the these payments? We comb
 
 ### EMR Performance
 
-The present plots and analysis are made based on AWS EMR, Apache Spark, and Plotly. We have test these Spark operations out on different EMR clusters to see the difference in their performance. The result shows that we can add more workers to have better performance. Besides, the Intel's chip (m5.xlarge based on Intel Xeon Platinum 8000) has a better performance on the AMD's chip in the same level (m5a.xlarge based on AMD EPYC 7000). What's more, it also shows that the chip with higher frequency (m5zn.xlarge based on Intel Xeon Scalable processors with a frequency up to 4.5 GHz) has a higher performance even when we have sightly smaller memories of 15GB and less works than the ordinary Intel chips.
+The present plots and analysis were created using AWS EMR, Apache Spark, and Plotly. We tested several Spark operations out on different EMR clusters to gauge the differences in their performance. The results show that we can add more workers to yield better performance. In addition, the Intel chip (m5.xlarge based on Intel Xeon Platinum 8000) outperforms AMD's equivalent chip (m5a.xlarge based on AMD EPYC 7000). Furthermore, chips with higher clock rates (m5zn.xlarge based on Intel Xeon Scalable processors with a frequency up to 4.5 GHz) perform better even when with sightly less RAM (random access memory) of 15GB and fewer worker nodes than the ordinary Intel chips.
 
 <img src="./images/Performance.png" align="center" style="padding-top:10px">
 
- *Note*: In the first column, **E** means the number of executors and **W** means the number of workers.
+ *Note*: In the first column, **E** represents the number of executor nodes and **W** represents the number of worker nodes in the EMR cluster.
