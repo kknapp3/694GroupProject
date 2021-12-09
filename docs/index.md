@@ -140,3 +140,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 {% include fig8.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
+
+### EMR Performance
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+
+<img src="./images/Performance.png" align="center" style="padding-top:10px">
+
+>  Nore: In the first column, E means the number of executors and W means the number of workers.
