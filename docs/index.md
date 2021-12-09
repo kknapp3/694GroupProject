@@ -89,7 +89,7 @@ Next, let's take a look at which states are active in the Open Payment Program. 
 
 #### 3 How much money in total for each state by manufactures?
 
-Now that we know some states receive more moneys than the others, so what about the manufactures? In the present figure, it shows that the applicable manufacturers, group purchasing organizations, or drug and medical device companies in California, Illinois, Indiana, Massachusetts, and New Jersey.
+Now that we know some states receive more moneys than the others, so what about the manufactures? In the present figure, it shows that the applicable manufacturers, group purchasing organizations, or drug and medical device companies in California, Illinois, Indiana, Massachusetts, and New Jersey have a higher amount of payments than the other states.
 
 {% capture includeGuts %}
 {% include fig3.html %} 
