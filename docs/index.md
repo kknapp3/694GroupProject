@@ -80,7 +80,7 @@ Then in the second part of distribution, all we can observe is a quick decay of 
 
 #### 2 How many recipient records each state?
 
-Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non orci eget, gravida auctor tortor. Nulla nec sagittis ex. Donec luctus pulvinar orci id porta. Maecenas sagittis lacus eu efficitur placerat. Pellentesque laoreet elementum leo eu viverra. Aliquam efficitur orci in risus fermentum, eu blandit risus auctor. Aenean elementum sed augue et scelerisque. Maecenas aliquet, metus vitae maximus pellentesque, risus enim tincidunt sem, a semper tellus urna ac justo. Morbi mauris risus, tempor vitae aliquet sit amet, euismod nec lectus. Aliquam vitae nisl rutrum, pellentesque lectus vitae, iaculis purus.
+Next, let's take a look at which states are active in the Open Payment Program. This figure basically shows how many recipient records gathered in each state in the Program year 2019. The result shows that California, Texas, Florida, and New York are pretty active in these records. This probably because these states has a higher population. We will analyze that more in the figure 4.
 
 {% capture includeGuts %}
 {% include fig2.html %} 
@@ -89,18 +89,16 @@ Aenean placerat dolor eget sem dapibus facilisis. Nullam sem purus, semper non o
 
 #### 3 How much money in total for each state by manufactures?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+Now that we know some states receive more moneys than the others, so what about the manufactures? In the present figure, it shows that the applicable manufacturers, group purchasing organizations, or drug and medical device companies in California, Illinois, Indiana, Massachusetts, and New Jersey.
 
 {% capture includeGuts %}
 {% include fig3.html %} 
 {% endcapture %}
 {{ includeGuts | replace: '    ', ''}}
 
-#### 4 Payment Received per State
+#### 4 Recipient Payment Records per Capita per State
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex quis sem feugiat luctus. Morbi ac congue nibh. Etiam mi sapien, faucibus sit amet nulla sit amet, ullamcorper facilisis neque. Fusce quis ultrices erat. Etiam sem dolor, vulputate ac magna id, aliquam tincidunt justo. Duis porttitor nec ipsum ullamcorper iaculis. Aliquam id justo pretium, sollicitudin lectus ac, viverra libero. Donec ac pellentesque elit, non volutpat orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean justo eros, tincidunt quis augue ac, maximus dapibus sapien. Donec in felis diam. Nulla dapibus urna in molestie porta. Donec malesuada eu urna eget eleifend. Ut tincidunt molestie est non blandit.
+Let's continue with the figure 2. In the figure 2, we can observe that some states has more records than the others. But does that mean these states are more active in this program? Probably not, we have guessed that it is probably because of the population. The present plot is the amount of money regularized by the population in each state and now we can find out that most of the states are on the same page. Massachusetts is actually an outlier in this visualization and we guess this is because it has more medical institutions than the other states.
 
 {% capture includeGuts %}
 {% include fig4.html %} 
@@ -149,4 +147,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ex qui
 
 <img src="./images/Performance.png" align="center" style="padding-top:10px">
 
->  Note: In the first column, E means the number of executors and W means the number of workers.
+ *Note*: In the first column, **E** means the number of executors and **W** means the number of workers.
